@@ -26,6 +26,8 @@ class _SettingsState extends State<Settings> {
           const SnackBar(content: Text('No user is currently signed in.')),
         );
         return;
+
+
       }
       try {
         // Get data from controllers
